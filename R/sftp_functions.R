@@ -169,6 +169,8 @@ sftp_connect <- function(server   = "",
 #'
 #' @seealso \link{sftp_listfiles}, \link{sftp_listdirs}, \link{sftp}
 #'
+#' @importFrom magrittr %>%
+#'
 #' @export
 sftp_list <- function(sftp_connection = sftp_con,
                       verbose = TRUE,
